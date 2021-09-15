@@ -28,7 +28,7 @@ scp pi@raspberrypi.local:/home/pi/data/wifi_2021-09-14T23_50_18.json wifi_2021-0
 ```
 Note: Make sure you are in the right directory on your PC (terminal).
 
-### Analyzing the data
+### Analyzing the data (on your PC)
 4. Download wifi_plot.py if it isn't already in the same directory.
 5. Then type:
 ```sh
