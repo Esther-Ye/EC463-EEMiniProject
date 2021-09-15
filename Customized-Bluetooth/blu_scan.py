@@ -4,8 +4,10 @@ Example of scanning Bluetooth Low Energy (BLE) devices.
 Requires a Linux computer due to gattlib underlying BLE scanning requiring Glib.
 """
 
-# 09/15/2021 added datetime
+# 09/15/2021 added date-time
 from datetime import datetime
+
+#testing git
 
 import argparse
 from bluetooth.ble import DiscoveryService
