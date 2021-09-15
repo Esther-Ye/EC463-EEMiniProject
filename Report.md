@@ -8,3 +8,4 @@ Report for assignment for Senior Capstone hardware miniproject
 3.	We then run the wifi_scan.py in the senior design lab and collected data for 100 data points and used wifi_plot.py to observe how the data is plotted (time vs. quantity). The plot showed that at most it was able to detect 8 objects (wifi points) at a time and they were moving relatively fast since the plot did not remain constant for a longer than 2 minutes.
 4.	In sum, we were able to familiarize ourselves with the raspberry pi interface (how to set up the OS and connect to a computer via SSH), the python IDE and how to get code running, and think about how data can be collected and organized for multiple purposes. 
 
+*For the JSON files and screenshot of the plot or results, please check the other folders.
