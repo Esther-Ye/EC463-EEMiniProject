@@ -4,7 +4,8 @@ Example of scanning Bluetooth Low Energy (BLE) devices.
 Requires a Linux computer due to gattlib underlying BLE scanning requiring Glib.
 """
 
-
+# 09/15/2021 added datetime
+from datetime import datetime
 
 import argparse
 from bluetooth.ble import DiscoveryService
@@ -15,7 +16,7 @@ p.add_argument(
     help="number of seconds to scan for BLE devices",
     nargs="?",
     type=int,
-    default=5,
+    default=30,
 )
 P = p.parse_args()
 
@@ -31,4 +32,4 @@ ble_devs = svc.discover(timeout)
 #    print(u, n)
 
 for address, name in ble_devs.items():
-    print("name: {}, address: {}".format(name, address))
+    print("address: {}, time: {}".format(address, datetime.now()))
